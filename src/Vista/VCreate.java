@@ -1,0 +1,627 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
+ */
+package Vista;
+
+/**
+ *
+ * @author criso
+ */
+public class VCreate extends javax.swing.JFrame {
+
+    /**
+     * Creates new form VCreate
+     */
+    public VCreate() {
+        initComponents();
+    }
+
+    // 1
+    public String getTxtNombreCompleto() {
+        return this.encuestadoNombreCompleto.getText();
+    }
+    
+    public void setTxtNombreCompleto(String text) {
+        this.encuestadoNombreCompleto.setText(text);
+    }
+    
+    // 2
+    public String getTxtSexo() {
+        return (String) this.encuestadoSexo.getSelectedItem();
+    }
+    
+    public void setTxtSexo(String text) {
+        this.encuestadoSexo.setSelectedItem(text);
+    }
+    
+    // 3
+    public String getTxtFechaNacimiento() {
+        return this.encuestadoFechaNacimiento.getText();
+    }
+    
+    public void setTxtFechaNacimiento(String text) {
+        this.encuestadoFechaNacimiento.setText(text);
+    }
+    
+    // 4
+    public String getTxtCedula() {
+        return this.encuestadoCedula.getText();
+    }
+    
+    public void setTxtCedula(String text) {
+        this.encuestadoCedula.setText(text);
+    }
+    
+    // 5
+    public String getTxtDireccion() {
+        return this.encuestadoDireccion.getText();
+    }
+    
+    public void setTxtDireccion(String text) {
+        this.encuestadoDireccion.setText(text);
+    }
+    
+    // 6
+    public String getTxtTelefonos() {
+        return this.encuestadoTelefonos.getText();
+    }
+    
+    public void setTxtTelefonos(String text) {
+        this.encuestadoTelefonos.setText(text);
+    }
+    
+    // 7
+    public String getTxtCorreosElectronicos() {
+        return this.encuestadoCorreosElectronicos.getText();
+    }
+    
+    public void setTxtCorreosElectronicos(String text) {
+        this.encuestadoCorreosElectronicos.setText(text);
+    }
+    
+    // 8
+    public String getTxtAreaTrabajo() {
+        return (String) this.encuestaAreaTrabajo.getSelectedItem();
+    }
+    
+    public void setTxtAreaTrabajo(String text) {
+        this.encuestaAreaTrabajo.setSelectedItem(text);
+    }
+    
+    // 9
+    public String getTxtPalabrasAliento() {
+        return this.encuestaPalabrasAliento.getText();
+    }
+    
+    public void setTxtPalabrasAliento(String text) {
+        this.encuestaPalabrasAliento.setText(text);
+    }
+    
+    // 10
+    public String getTxtAgradecimientoProfesores() {
+        return this.encuestaAgradecimientoProfesores.getText();
+    }
+    
+    public void setTxtAgradecimientoProfesores(String text) {
+        this.encuestaAgradecimientoProfesores.setText(text);
+    }
+    
+    // 11
+    public String getTxtPaises() {
+        return (String) this.cbPaises.getSelectedItem();
+    }
+    
+    public void setTxtPaises(String text) {
+        this.cbPaises.setSelectedItem(text);
+    }
+    
+    // 12
+    public String getTxtObservacion() {
+        return this.encuestaObservacion.getText();
+    }
+    
+    public void setTxtObservacion(String text) {
+        this.encuestaObservacion.setText(text);
+    }
+    
+    
+    // 13
+    public String getTxtAreaEspecialParaTrabajar() {
+        return this.encuestaAreaEspecialParaTrabajar.getText();
+    }
+    
+    public void setTxtAreaEspecialParaTrabajar(String text) {
+        this.encuestaAreaEspecialParaTrabajar.setText(text);
+    }
+    
+    // 14
+    public String getTxtSalarioEsperado() {
+        return this.encuestaSalarioEsperado.getText();
+    }
+    
+    public void setTxtSalarioEsperado(String text) {
+        this.encuestaSalarioEsperado.setText(text);
+    }
+    
+    // 15
+    public String getTxtAreaReforzarCursosLibres() {
+        return this.encuestaAreaReforzarCursosLibres.getText();
+    }
+    
+    public void setTxtAreaReforzarCursosLibres(String text) {
+        this.encuestaAreaReforzarCursosLibres.setText(text);
+    }
+    
+    // 16
+    public String getTxtPagoMaximoCurso() {
+        return this.encuestaPagoMaximoCurso.getText();
+    }
+    
+    public void setTxtPagoMaximoCurso(String text) {
+        this.encuestaPagoMaximoCurso.setText(text);
+    }
+    
+    // 17
+    public String getTxtFamilias() {
+        return this.encuestaFamilias.getText();
+    }
+    
+    public void setTxtFamilias(String text) {
+        this.encuestaFamilias.setText(text);
+    }
+    
+    // Botones
+    public javax.swing.JButton getBtnGuardar() {
+        return this.btnGuardar;
+    }
+    
+    public javax.swing.JButton getBtnLimpiar() {
+        return this.btnLimpiar;
+    }
+    
+    public javax.swing.JButton getBtnRegresar() {
+        return this.btnRegresar;
+    }
+    
+    /**
+     * This method is called from within the constructor to initialize the form.
+     * WARNING: Do NOT modify this code. The content of this method is always
+     * regenerated by the Form Editor.
+     */
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
+
+        jPanel1 = new javax.swing.JPanel();
+        jLabel8 = new javax.swing.JLabel();
+        encuestaAreaTrabajo = new javax.swing.JComboBox<>();
+        jLabel9 = new javax.swing.JLabel();
+        encuestadoNombreCompleto = new javax.swing.JTextField();
+        encuestadoFechaNacimiento = new javax.swing.JTextField();
+        encuestadoCedula = new javax.swing.JTextField();
+        encuestadoDireccion = new javax.swing.JTextField();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        encuestadoSexo = new javax.swing.JComboBox<>();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        encuestadoTelefonos = new javax.swing.JTextField();
+        encuestadoCorreosElectronicos = new javax.swing.JTextField();
+        jLabel10 = new javax.swing.JLabel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        encuestaPalabrasAliento = new javax.swing.JTextPane();
+        jLabel11 = new javax.swing.JLabel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        encuestaObservacion = new javax.swing.JTextPane();
+        jLabel12 = new javax.swing.JLabel();
+        cbPaises = new javax.swing.JComboBox<>();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
+        encuestaPagoMaximoCurso = new javax.swing.JTextField();
+        encuestaAreaEspecialParaTrabajar = new javax.swing.JTextField();
+        encuestaSalarioEsperado = new javax.swing.JTextField();
+        encuestaAreaReforzarCursosLibres = new javax.swing.JTextField();
+        btnLimpiar = new javax.swing.JButton();
+        btnGuardar = new javax.swing.JButton();
+        btnRegresar = new javax.swing.JButton();
+        encuestaFamilias = new javax.swing.JTextField();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        encuestaAgradecimientoProfesores = new javax.swing.JTextPane();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+
+        jPanel1.setBackground(new java.awt.Color(255, 255, 230));
+
+        jLabel8.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel8.setText("Correo Electrónico (separar con ; para añadir otro)");
+
+        encuestaAreaTrabajo.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        encuestaAreaTrabajo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Estatal", "Privada", "Negocio Propio" }));
+
+        jLabel9.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel9.setText("Área que le gustaría trabajar");
+
+        encuestadoNombreCompleto.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+
+        encuestadoFechaNacimiento.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        encuestadoFechaNacimiento.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                encuestadoFechaNacimientoActionPerformed(evt);
+            }
+        });
+
+        encuestadoCedula.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+
+        encuestadoDireccion.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        jLabel1.setText("Crear Encuesta");
+
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel2.setText("Nombre Completo");
+
+        encuestadoSexo.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        encuestadoSexo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "M", "F" }));
+
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel3.setText("Sexo");
+
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel4.setText("Fecha de Nacimiento (yyyy-mm-dd)");
+
+        jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel5.setText("Cédula de Identidad");
+
+        jLabel6.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel6.setText("Dirección");
+
+        jLabel7.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel7.setText("Teléfono (separar con ; para añadir otro)");
+
+        encuestadoTelefonos.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+
+        encuestadoCorreosElectronicos.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+
+        jLabel10.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel10.setText("Palabras de aliento a sus compañeros y compañeras");
+
+        encuestaPalabrasAliento.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jScrollPane1.setViewportView(encuestaPalabrasAliento);
+
+        jLabel11.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel11.setText("Agradecimientos a sus profesores");
+
+        encuestaObservacion.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jScrollPane2.setViewportView(encuestaObservacion);
+
+        jLabel12.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel12.setText("Le gustaría viajar a dónde por placer o trabajo");
+
+        cbPaises.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+
+        jLabel13.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel13.setText("Alguna Observación");
+        jLabel13.setToolTipText("");
+
+        jLabel14.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel14.setText("¿Tiene área especial que le gustaría trabajar?");
+
+        jLabel15.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel15.setText("¿Cuánto le gustaría ganar en su trabajo?");
+
+        jLabel16.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel16.setText("¿Qué área le gustaría reforzar en cursos libres?");
+
+        jLabel17.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel17.setText("¿Hasta cuanto podría pagar por dicho curso?");
+
+        jLabel18.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jLabel18.setText("Familia (separar con ; para añadir otro)");
+
+        encuestaPagoMaximoCurso.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+
+        encuestaAreaEspecialParaTrabajar.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+
+        encuestaSalarioEsperado.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+
+        encuestaAreaReforzarCursosLibres.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+
+        btnLimpiar.setBackground(new java.awt.Color(255, 255, 254));
+        btnLimpiar.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        btnLimpiar.setText("Limpiar");
+
+        btnGuardar.setBackground(new java.awt.Color(255, 255, 254));
+        btnGuardar.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        btnGuardar.setText("Guardar");
+
+        btnRegresar.setBackground(new java.awt.Color(255, 255, 254));
+        btnRegresar.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        btnRegresar.setText("Regresar");
+
+        encuestaFamilias.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+
+        encuestaAgradecimientoProfesores.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jScrollPane4.setViewportView(encuestaAgradecimientoProfesores);
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(12, 12, 12)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel18)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(encuestaFamilias, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel17)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(encuestaPagoMaximoCurso, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel16)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(encuestaAreaReforzarCursosLibres, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel15)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(encuestaSalarioEsperado, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel14)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(encuestaAreaEspecialParaTrabajar, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel13)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel12)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(cbPaises, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel10)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel9)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(encuestaAreaTrabajo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel11)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(0, 15, Short.MAX_VALUE))
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(14, 14, 14)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(encuestadoSexo, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 347, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(jLabel2)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(encuestadoNombreCompleto, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(2, 2, 2)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                        .addGroup(jPanel1Layout.createSequentialGroup()
+                                            .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                            .addComponent(encuestadoCedula, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
+                                            .addComponent(jLabel6)
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                            .addComponent(encuestadoDireccion, javax.swing.GroupLayout.PREFERRED_SIZE, 204, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                        .addComponent(jLabel4)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(encuestadoFechaNacimiento, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                        .addComponent(jLabel7)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(encuestadoTelefonos, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                        .addComponent(jLabel8)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(encuestadoCorreosElectronicos, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))))))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(68, 68, 68)
+                        .addComponent(btnGuardar)
+                        .addGap(57, 57, 57)
+                        .addComponent(btnLimpiar)
+                        .addGap(58, 58, 58)
+                        .addComponent(btnRegresar)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addGap(13, 13, 13)
+                .addComponent(jLabel1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel2)
+                    .addComponent(encuestadoNombreCompleto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(encuestadoSexo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel3))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(encuestadoFechaNacimiento, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel4))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel5)
+                    .addComponent(encuestadoCedula, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel6)
+                    .addComponent(encuestadoDireccion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel7)
+                    .addComponent(encuestadoTelefonos, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel8)
+                    .addComponent(encuestadoCorreosElectronicos, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel9)
+                    .addComponent(encuestaAreaTrabajo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel10))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel11)
+                    .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel12)
+                    .addComponent(cbPaises, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel13)
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel14)
+                    .addComponent(encuestaAreaEspecialParaTrabajar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel15)
+                    .addComponent(encuestaSalarioEsperado, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel16)
+                    .addComponent(encuestaAreaReforzarCursosLibres, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel17)
+                    .addComponent(encuestaPagoMaximoCurso, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel18)
+                    .addComponent(encuestaFamilias, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnGuardar)
+                    .addComponent(btnLimpiar)
+                    .addComponent(btnRegresar))
+                .addContainerGap(27, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+
+        pack();
+    }// </editor-fold>//GEN-END:initComponents
+
+    private void encuestadoFechaNacimientoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_encuestadoFechaNacimientoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_encuestadoFechaNacimientoActionPerformed
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String args[]) {
+        /* Set the Nimbus look and feel */
+        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         */
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(VCreate.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(VCreate.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(VCreate.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(VCreate.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        //</editor-fold>
+
+        /* Create and display the form */
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new VCreate().setVisible(true);
+            }
+        });
+    }
+
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnGuardar;
+    private javax.swing.JButton btnLimpiar;
+    private javax.swing.JButton btnRegresar;
+    public javax.swing.JComboBox<String> cbPaises;
+    private javax.swing.JTextPane encuestaAgradecimientoProfesores;
+    private javax.swing.JTextField encuestaAreaEspecialParaTrabajar;
+    private javax.swing.JTextField encuestaAreaReforzarCursosLibres;
+    private javax.swing.JComboBox<String> encuestaAreaTrabajo;
+    private javax.swing.JTextField encuestaFamilias;
+    private javax.swing.JTextPane encuestaObservacion;
+    private javax.swing.JTextField encuestaPagoMaximoCurso;
+    private javax.swing.JTextPane encuestaPalabrasAliento;
+    private javax.swing.JTextField encuestaSalarioEsperado;
+    private javax.swing.JTextField encuestadoCedula;
+    private javax.swing.JTextField encuestadoCorreosElectronicos;
+    private javax.swing.JTextField encuestadoDireccion;
+    private javax.swing.JTextField encuestadoFechaNacimiento;
+    private javax.swing.JTextField encuestadoNombreCompleto;
+    private javax.swing.JComboBox<String> encuestadoSexo;
+    private javax.swing.JTextField encuestadoTelefonos;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane4;
+    // End of variables declaration//GEN-END:variables
+}
